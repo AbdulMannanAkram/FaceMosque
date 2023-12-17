@@ -31,6 +31,7 @@
                 </li>
             </ul>
         </div>
+
         <!-- ... -->
         @if (Auth::check())
             <a href="{{ route('controlPanel.logout') }}" class="btn custom-btn d-lg-block d-none">Logout</a>
